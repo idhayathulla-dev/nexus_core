@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:57:49.652105+00:00",
+  "generated_at": "2026-09-23T12:44:00.349834+00:00",
   "experiments": {
     "experiment_a": {
       "experiment_id": "EXP-A-MISSING-TELEMETRY",
@@ -33,7 +33,7 @@
         {
           "packet_loss_rate": 0.3,
           "loss_percentage": "30%",
-          "mean_absolute_reconstruction_error": 0.0034,
+          "mean_absolute_reconstruction_error": 0.007,
           "mean_confidence": 0.9936,
           "state_divergence_score": 0.195,
           "inferred_packet_ratio": 0.36
@@ -41,7 +41,7 @@
         {
           "packet_loss_rate": 0.4,
           "loss_percentage": "40%",
-          "mean_absolute_reconstruction_error": 0.0042,
+          "mean_absolute_reconstruction_error": 0.0135,
           "mean_confidence": 0.9898,
           "state_divergence_score": 0.26,
           "inferred_packet_ratio": 0.47
@@ -90,7 +90,7 @@
           "precision": 0.9091,
           "recall": 0.2,
           "f1_score": 0.3279,
-          "avg_latency_microseconds": 7.79
+          "avg_latency_microseconds": 25.14
         },
         "multivariate_ml_detector": {
           "true_positives": 49,
@@ -100,7 +100,7 @@
           "precision": 0.2899,
           "recall": 0.98,
           "f1_score": 0.4475,
-          "avg_latency_microseconds": 12297.55
+          "avg_latency_microseconds": 17441.73
         }
       }
     },
